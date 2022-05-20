@@ -6,6 +6,7 @@
 
 body {
     background-color: white;
+    background-image: url("https://wallpaper.dog/large/988025.jpg");
     font-family: 'Trebuchet MS', 
     'Lucida Sans Unicode', 
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,13 +21,13 @@ header {
 }
 
 h1 {
-    color: slateblue;
+    color: rgb(207, 199, 253);
     margin: 16px;
     padding: 16px;
     display: inline;
     text-align: center;
     text-shadow: 2px 2px 2px black;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 p {
@@ -35,7 +36,7 @@ p {
 }
 
 h2 {
-    color: rgb(4, 12, 96); 
+    color: rgb(119, 255, 142); 
     font-size: 2vw;
     text-align: center;
     margin-top: 50px;
@@ -52,7 +53,7 @@ h2 {
 }
 #descript {
     margin-top: 2vw;
-    color: rgb(4, 79, 25); 
+    color: rgb(119, 255, 142); 
     font-size: 2vw;
 }
 
@@ -61,8 +62,10 @@ h2 {
 
 }
 #mug {
-    border-radius: 50%;
-    box-shadow: 8px 8px 8px slateblue;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    border-radius: 5%;
+    box-shadow: 12px 12px 12px slateblue;
 }
 
 ul, 
