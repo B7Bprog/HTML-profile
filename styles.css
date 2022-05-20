@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid 1px black;
 }
 
 body {
@@ -26,19 +25,35 @@ h1 {
     padding: 16px;
     display: inline;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3vw;
+}
+
+p {
+    text-align: center;
+    font-size: 2vw;
+}
+
+h2 {
+    color: rgb(4, 12, 96); 
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .list {
     color:rgb(172, 0, 29); 
-    font-size: 3vw;
+    font-size: 2vw;
+    margin: 2vw 0vw 0vw 45vw;
+    
 }
 #myName {
     color: rgb(26, 4, 93); font-size: 5vw;
 }
 #descript {
+    margin-top: 2vw;
     color: rgb(4, 79, 25); 
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 #north {
