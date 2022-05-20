@@ -62,10 +62,22 @@ h2 {
 
 }
 #mug {
-    margin-top: 5vw;
+    
+    margin-top: 10vw;
     margin-left: 22vw;
+    margin-bottom: 10vw;
     border-radius: 5%;
     box-shadow: 12px 12px 12px slateblue;
+    animation: rotate 5s infinite linear;
+
+}
+
+@keyframes rotate
+{
+0%   {}
+100% {-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+transform: rotate(360deg);}
 }
 
 ul, 
